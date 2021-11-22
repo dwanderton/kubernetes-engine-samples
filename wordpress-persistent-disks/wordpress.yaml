@@ -35,3 +35,4 @@ spec:
         - name: wordpress-persistent-storage
           persistentVolumeClaim:
             claimName: wordpress-volumeclaim
+        - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini 
